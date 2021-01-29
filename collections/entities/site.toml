@@ -1,5 +1,5 @@
 lang = "en"
-host = "localhost"
+host = "entities-example.uwe.app"
 
 [dependencies."std::core"]
 version = "^4"
