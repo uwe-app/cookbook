@@ -9,3 +9,15 @@ name = "std::core"
 version = "4.1.13"
 checksum = "8df4fc24727a00b4fb47fdf2d5a2a442742afb6f8b6c68fc412103a09f8989b7"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::paginate"
+version = "1.0.0"
+checksum = "27e8c76f04e7228f992bd5df6b5ef478de25a2b6907f4f3fc07a3cd2879a7934"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::paginate"
+version = "1.0.1"
+checksum = "9b6b8ee2a6ae4949db813c5b3d6c4f29862ea6cfbfa765d97e667407e4bb1206"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"

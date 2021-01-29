@@ -2,10 +2,35 @@ main > header {
   padding: 2em 0;
 }
 
-details {
-  margin-bottom: 1em;
-}
-
 footer {
   text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+  /* So that white space entities keep the column grid */
+  white-space: pre;
+}
+
+.entities {
+  columns: 2 auto;
+  padding: 2em 0;
+}
+
+@media (min-width: 640px) {
+  .entities {
+    columns: 3 auto;
+  }
+}
+
+.entities > div {
+  margin-bottom: 2em;
+  break-inside: avoid-column;
+  page-break-inside: avoid
+}
+
+.detail {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }

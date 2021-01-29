@@ -5,6 +5,11 @@ host = "localhost"
 version = "^4"
 apply = { styles = ["**"] }
 
+[dependencies."std::paginate"]
+version = "^1"
+apply = { styles = ["**"] }
+#path = "../../../plugins/std/paginate"
+
 [dependencies."std::blueprint::default"]
 version = "^1"
 
@@ -24,3 +29,7 @@ key = "*"
 name = "entity"
 index = "all"
 include-docs = true
+page = { size = 100 }
+
+[redirects]
+"/" = "/1/"
