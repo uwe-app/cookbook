@@ -1,0 +1,26 @@
+lang = "en"
+host = "localhost"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[page.meta]
+description = "HTML Entity List"
+keywords = "HTML, Entity, Collections"
+
+[db.load.entity]
+provider = "document"
+type = "json"
+from = "collections/entity/names.json"
+
+[db.load.entity.on.all]
+key = "*"
+
+[pages."index.md".query]
+name = "entity"
+index = "all"
+include-docs = true
