@@ -7,13 +7,13 @@ Each example is a complete project so you can use `uwe dev` to view the resultin
 Clone the repository:
 
 ```
-git clone https://github.com/uwe-app/examples.git
+git clone https://github.com/uwe-app/examples.git uwe-examples
 ```
 
 Then change directory and build the project:
 
 ```
-cd collections/colors
+cd uwe-examples/collections/colors
 uwe dev
 ```
 

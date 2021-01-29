@@ -9,3 +9,12 @@ details {
 footer {
   text-align: center;
 }
+
+h3 {
+  text-transform: uppercase;
+}
+
+.swatch {
+  background: var(--std-color-active);
+  padding: 1em;
+}

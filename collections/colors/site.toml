@@ -1,13 +1,26 @@
 lang = "en"
 host = "localhost"
-[dependencies."std::core"]
-version = "~4.1.6"
 
-[dependencies."std::core".apply]
-styles = ["**"]
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
 
 [dependencies."std::blueprint::default"]
-version = "1.0.0"
+version = "^1"
+
 [page.meta]
-description = "Website"
-keywords = "Vanilla, Website"
+description = "HTML/CSS Color Names"
+keywords = "Colors, Markup, CSS, Collections"
+
+[db.load.colors]
+provider = "document"
+type = "json"
+from = "collections/colors/names.json"
+
+[db.load.colors.on.all]
+key = "*"
+
+[pages."index.md".query]
+name = "colors"
+index = "all"
+include-docs = true
