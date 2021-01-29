@@ -1,5 +1,5 @@
 ## Examples
 
-A group of [UWE][] web projects that are examples of various useful techniques.
+Examples of various useful techniques for [UWE][] websites.
 
 [UWE]: https://uwe.app
