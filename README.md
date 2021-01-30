@@ -2,7 +2,7 @@
 
 Examples of various useful techniques for [UWE][] websites designed to accompany the documentation and so people can see each technique in isolation and build the projects to view the result.
 
-This document assumes you have [tools already installed][installation].
+This document assumes you have [already installed the tools][installation].
 
 ### Running Projects
 
@@ -17,7 +17,7 @@ git clone https://github.com/uwe-app/examples.git uwe-examples
 Then change directory and build the project:
 
 ```
-cd uwe-examples/collections/colors
+cd uwe-examples/collections/document
 uwe dev
 ```
 
