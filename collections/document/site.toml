@@ -1,5 +1,5 @@
 lang = "en"
-host = "colors-example.uwe.app"
+host = "document-example.uwe.app"
 
 [dependencies."std::core"]
 version = "^4"
