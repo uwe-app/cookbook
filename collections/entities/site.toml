@@ -8,7 +8,6 @@ apply = { styles = ["**"] }
 [dependencies."std::paginate"]
 version = "^1"
 apply = { styles = ["**"] }
-#path = "../../../plugins/std/paginate"
 
 [dependencies."std::blueprint::default"]
 version = "^1"
