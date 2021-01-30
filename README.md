@@ -1,6 +1,10 @@
 ## Examples
 
-Examples of various useful techniques for [UWE][] websites.
+Examples of various useful techniques for [UWE][] websites designed to accompany the documentation and so people can see each technique in isolation and build the projects to view the result.
+
+This document assumes you have [tools already installed][installation].
+
+### Running Projects
 
 Each example is a complete project so you can use `uwe dev` to view the resulting website.
 
@@ -17,4 +21,12 @@ cd uwe-examples/collections/colors
 uwe dev
 ```
 
+Developers can compile the entire workspace using `uwe build` at the root of the repository to quickly test for any errors.
+
+### Collections
+
+* [document](/collections/document) Generate a collection from a single document
+* [pagination](/collections/pagination) Generate pages from a collection
+
 [UWE]: https://uwe.app
+[installation]: https://uwe.app/docs/installation/

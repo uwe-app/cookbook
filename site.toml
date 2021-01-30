@@ -1,5 +1,5 @@
 [workspace]
 members = [
-  "collections/colors",
-  "collections/entities",
+  "collections/document",
+  "collections/pagination",
 ]
