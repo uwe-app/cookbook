@@ -25,6 +25,7 @@ uwe dev
 
 * [inline](/syntax-highlight/inline) Syntax highlight using inline styles
 * [external](/syntax-highlight/external) Syntax highlight using an external stylesheet
+* [runtime](/syntax-highlight/runtime) Syntax highlight using [highlight.js][]
 
 ## Notes
 
@@ -32,3 +33,4 @@ Developers can compile the entire workspace using `uwe build` at the root of the
 
 [UWE]: https://uwe.app
 [installation]: https://uwe.app/docs/installation/
+[highlight.js]: https://highlightjs.org/

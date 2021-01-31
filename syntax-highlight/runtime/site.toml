@@ -1,0 +1,21 @@
+lang = "en"
+host = "runtime-syntax-highlight-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."lib::highlight"]
+version = "~10"
+
+[dependencies."lib::highlight".apply]
+scripts = [ "**" ]
+styles = [ { to = "**", filter = "monokai.css" } ]
+
+[page.meta]
+description = "Syntax highlight with highlight.js"
+keywords = "Syntax, Highlight"
+
