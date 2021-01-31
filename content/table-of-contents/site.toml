@@ -1,0 +1,23 @@
+lang = "en"
+host = "table-of-contents-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[page.meta]
+description = "Table of Contents"
+keywords = "Table of Contents, Example, Heading, Id"
+
+[transform.html]
+toc = true
+
+[syntax]
+theme = "Solarized (light)"
+

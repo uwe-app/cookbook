@@ -1,5 +1,5 @@
 lang = "en"
-host = "localhost"
+host = "csv-table-example.uwe.app"
 
 [dependencies."std::core"]
 version = "^4"

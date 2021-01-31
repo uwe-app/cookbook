@@ -3,4 +3,5 @@ members = [
   "collections/csv-table",
   "collections/document",
   "collections/pagination",
+  "content/table-of-contents",
 ]
