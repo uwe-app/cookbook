@@ -19,7 +19,7 @@ uwe dev
 
 * [csv-table](/collections/csv-table) Render an HTML table from a CSV document
 * [document](/collections/document) Generate a collection from a single document
-* [pagination](/collections/pagination) Paginate a collection
+* [pagination](/collections/pagination) Create pages from a collection and provide navigation controls
 
 ### Syntax Highlight
 
