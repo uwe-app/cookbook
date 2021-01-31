@@ -1,0 +1,25 @@
+main > header {
+  padding: 2em 0;
+}
+
+details {
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  overflow-x: auto;
+}
+
+tr th:first-child {
+  text-align: left;
+}
+
+tr td:nth-child(2) {
+  text-align: center;
+}

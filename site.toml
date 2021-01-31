@@ -1,5 +1,6 @@
 [workspace]
 members = [
+  "collections/csv-table",
   "collections/document",
   "collections/pagination",
 ]

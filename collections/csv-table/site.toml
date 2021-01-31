@@ -1,0 +1,26 @@
+lang = "en"
+host = "localhost"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[page.meta]
+description = "Country code table (ISO 3166-1)"
+keywords = "CSV, Table, Country, Codes"
+
+[db.load.countries]
+provider = "document"
+type = "csv"
+from = "collections/countries/codes.csv"
+
+[db.load.countries.on.all]
+key = "*"
+
+[pages."index.md".query]
+name = "countries"
+index = "all"
+include-docs = true
