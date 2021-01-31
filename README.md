@@ -4,24 +4,14 @@ Examples of various useful techniques for [UWE][] websites designed to accompany
 
 This document assumes you have [already installed the tools][installation].
 
-### Running Projects
+Clone the repository, change directory and preview the website for a project:
 
-Each example is a complete project so you can use `uwe dev` to view the resulting website.
-
-Clone the repository:
 
 ```
 git clone https://github.com/uwe-app/examples.git uwe-examples
-```
-
-Then change directory and build the project:
-
-```
 cd uwe-examples/collections/document
 uwe dev
 ```
-
-Developers can compile the entire workspace using `uwe build` at the root of the repository to quickly test for any errors.
 
 ### Content
 
@@ -37,6 +27,10 @@ Developers can compile the entire workspace using `uwe build` at the root of the
 
 * [inline](/syntax-highlight/inline) Syntax highlight using inline styles
 * [external](/syntax-highlight/external) Syntax highlight using an external stylesheet
+
+## Notes
+
+Developers can compile the entire workspace using `uwe build` at the root of the repository to quickly test for any errors.
 
 [UWE]: https://uwe.app
 [installation]: https://uwe.app/docs/installation/
