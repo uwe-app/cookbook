@@ -1,8 +1,6 @@
 ## Examples
 
-Examples of various useful techniques for [UWE][] websites designed to accompany the documentation and so people can see each technique in isolation and build the projects to view the result.
-
-This document assumes you have [already installed the tools][installation].
+Examples of various useful techniques for [UWE][] websites designed to accompany the documentation and so people can see each technique in isolation and build the projects to view the result. This document assumes you have [already installed the tools][installation].
 
 Clone the repository, change directory and preview the website for a project:
 
