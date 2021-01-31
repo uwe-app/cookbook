@@ -1,0 +1,17 @@
+lang = "en"
+host = "directory-listing-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::listing"]
+version = "^1"
+
+[page.meta]
+description = "Directory Listing"
+keywords = "Directory, Listing"
+
