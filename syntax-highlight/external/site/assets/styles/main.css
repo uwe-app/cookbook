@@ -1,0 +1,17 @@
+main > header {
+  padding: 2em 0;
+}
+
+details {
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+/* For external stylesheets used for syntax highlighting remove the
+ * background color so it does not clash with our dark mode handling */
+.code {
+  background-color: transparent;
+}

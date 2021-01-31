@@ -4,4 +4,6 @@ members = [
   "collections/document",
   "collections/pagination",
   "content/table-of-contents",
+  "syntax-highlight/external",
+  "syntax-highlight/inline",
 ]

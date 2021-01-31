@@ -1,0 +1,19 @@
+lang = "en"
+host = "inline-syntax-highlight-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[page.meta]
+description = "Syntax highlight with inline styles"
+keywords = "Syntax, Highlight"
+
+[syntax]
+theme = "Solarized (light)"
