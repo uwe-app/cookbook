@@ -3,7 +3,9 @@ members = [
   "collections/csv-table",
   "collections/document",
   "collections/pagination",
+  "content/directory-listing",
   "content/table-of-contents",
   "syntax-highlight/external",
   "syntax-highlight/inline",
+  "syntax-highlight/runtime",
 ]
