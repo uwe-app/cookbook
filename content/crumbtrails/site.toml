@@ -6,7 +6,7 @@ description = "Crumbtrails Navigation"
 keywords = "Crumbtrails, Navigation"
 
 [dependencies."std::core"]
-version = "^4"
+version = "^5"
 apply = { styles = ["**"] }
 
 [dependencies."std::blueprint::default"]

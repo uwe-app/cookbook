@@ -6,7 +6,7 @@ description = "Syntax highlight with inline styles"
 keywords = "Syntax, Highlight"
 
 [dependencies."std::core"]
-version = "^4"
+version = "^5"
 apply = { styles = ["**"] }
 
 [dependencies."std::blueprint::default"]

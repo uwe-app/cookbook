@@ -2,14 +2,14 @@ lang = "en"
 host = "runtime-syntax-highlight-example.uwe.app"
 
 [dependencies."std::core"]
-version = "^4"
+version = "^5"
 apply = { styles = ["**"] }
 
 [dependencies."std::blueprint::default"]
 version = "^1"
 
 [dependencies."lib::highlight"]
-version = "~10"
+version = "^1"
 
 [dependencies."lib::highlight".apply]
 scripts = [ "**" ]

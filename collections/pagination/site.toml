@@ -2,7 +2,7 @@ lang = "en"
 host = "pagination-example.uwe.app"
 
 [dependencies."std::core"]
-version = "^4"
+version = "^5"
 apply = { styles = ["**"] }
 
 [dependencies."std::paginate"]
