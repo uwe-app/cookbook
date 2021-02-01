@@ -1,9 +1,9 @@
 lang = "en"
-host = "inline-syntax-highlight-example.uwe.app"
+host = "crumbtrails-example.uwe.app"
 
 [page.meta]
-description = "Syntax highlight with inline styles"
-keywords = "Syntax, Highlight"
+description = "Crumbtrails Navigation"
+keywords = "Crumbtrails, Navigation"
 
 [dependencies."std::core"]
 version = "^4"
@@ -11,6 +11,10 @@ apply = { styles = ["**"] }
 
 [dependencies."std::blueprint::default"]
 version = "^1"
+
+[dependencies."std::crumbtrail"]
+version = "^1"
+apply = { styles = ["**"] }
 
 [dependencies."std::syntax"]
 version = "^1"

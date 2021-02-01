@@ -13,6 +13,7 @@ uwe dev
 
 ### Content
 
+* [crumbtrails](/content/crumbtrails) Navigate to ancestor folders
 * [directory-listing](/content/directory-listing) Link to pages in a folder
 * [imports](/content/imports) Use imports for page headers and footers
 * [includes](/content/includes) Include example text files

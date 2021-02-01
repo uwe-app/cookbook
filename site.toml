@@ -3,6 +3,7 @@ members = [
   "collections/csv-table",
   "collections/document",
   "collections/pagination",
+  "content/crumbtrails",
   "content/directory-listing",
   "content/imports",
   "content/includes",
