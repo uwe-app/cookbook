@@ -18,4 +18,4 @@ Then use the `crumbtrail` partial to render a navigation to parent folders:
 
 Parent folders *must have an index page* to be include in the navigation.
 
-To view it in action got to the [[section|mock section]] and [[section/subsection|mock subsection]] pages.
+To view it in action go to the [[section|mock section]] and [[section/subsection|mock subsection]] pages.

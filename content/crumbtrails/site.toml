@@ -15,6 +15,7 @@ version = "^1"
 [dependencies."std::crumbtrail"]
 version = "^1"
 apply = { styles = ["**"] }
+path = "../../../plugins/std/crumbtrail"
 
 [dependencies."std::syntax"]
 version = "^1"
