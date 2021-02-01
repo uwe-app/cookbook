@@ -1,0 +1,22 @@
+lang = "en"
+host = "imports-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::listing"]
+version = "^1"
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[page.meta]
+description = "Import Templates"
+keywords = "Import, Templates, Header, Footer"
+
+[syntax]
+theme = "Solarized (light)"

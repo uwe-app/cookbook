@@ -14,6 +14,7 @@ uwe dev
 ### Content
 
 * [directory-listing](/content/directory-listing) Link to pages in a folder
+* [imports](/content/imports) Use imports for page headers and footers
 * [includes](/content/includes) Include example text files
 * [table-of-contents](/content/table-of-contents) Link to page headings
 
