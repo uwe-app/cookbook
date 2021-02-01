@@ -1,0 +1,19 @@
+lang = "en"
+host = "includes-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^4"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[page.meta]
+description = "File Includes"
+keywords = "Include, Example, Text, Files"
+
+[syntax]
+theme = "Solarized (light)"
