@@ -1,13 +1,13 @@
 [[package]]
 name = "lib::highlight"
 version = "1.0.0"
-checksum = "bec1d161ab297b7ee2b48e381d2a224a3771110704054fbc2d49eb2acda066a9"
+checksum = "7b03f3819433b770145ae7eacee62037e00e924343c57339e9a8c537b9f4f6a7"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
 name = "std::blueprint::default"
-version = "1.0.0"
-checksum = "47414269c04e1b62373cec1230e88038d9867909e2e1029488278a1dcdedc40f"
+version = "1.1.1"
+checksum = "37733b1d455d8ec1c1e239553d1141427beffd3e1f7c3965af79a5e4cdb9701b"
 source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
 
 [[package]]
