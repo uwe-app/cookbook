@@ -1,0 +1,32 @@
+lang = "en"
+host = "rss-podcast-example.uwe.app"
+
+[dependencies."std::core"]
+version = "^5"
+apply = { styles = ["**"] }
+
+[dependencies."std::blueprint::default"]
+version = "^1"
+
+[dependencies."std::syntax"]
+version = "^1"
+
+[syntax]
+theme = "Solarized (light)"
+
+[page.meta]
+description = "RSS Podcast"
+keywords = "RSS, XML, Podcast"
+
+[db.load.podcast]
+provider = "document"
+type = "xml"
+from = "collections/podcast/rss.xml"
+
+[db.load.podcast.on.all]
+key = "*"
+
+[pages."index.md".query]
+name = "podcast"
+index = "all"
+include-docs = true

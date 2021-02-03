@@ -1,0 +1,17 @@
+[[package]]
+name = "std::blueprint::default"
+version = "1.1.1"
+checksum = "37733b1d455d8ec1c1e239553d1141427beffd3e1f7c3965af79a5e4cdb9701b"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::core"
+version = "5.0.0"
+checksum = "b2f567c7e721c375078dbba3aa0499a29cfd0425979533655e9268c697c6089d"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"
+
+[[package]]
+name = "std::syntax"
+version = "1.0.1"
+checksum = "ce53850cef8e9d99480fe3f3ac2a9899ccdc9a5ca8ce73f36d3e41cfefe9554a"
+source = "https://s3-ap-southeast-1.amazonaws.com/registry.uwe.app"

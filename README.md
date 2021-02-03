@@ -24,6 +24,7 @@ uwe dev
 * [csv-table](/collections/csv-table) Render an HTML table from a CSV document
 * [document](/collections/document) Generate a collection from a single document
 * [pagination](/collections/pagination) Create pages from a collection and provide navigation controls
+* [rss-podcast](/collections/rss-podcast) Render from an RSS XML podcast feed
 
 ### Syntax Highlight
 
