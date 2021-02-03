@@ -1,4 +1,4 @@
-# Collections Pagination
+# Pagination
 
 An example of using a JSON `document` provider with `page` configured for a query to generate pages from a collection.
 
