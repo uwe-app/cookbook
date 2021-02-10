@@ -6,7 +6,7 @@ See the [documentation][docs] for more information.
 
 ## Run
 
-If a project it has a `package.json` file install dependencies with `npm install` or `yarn install` then you can preview the site with a development server:
+First install dependencies with `npm install` or `yarn install` then you can preview the site with a development server:
 
 ```
 uwe dev --exec
