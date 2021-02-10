@@ -1,3 +1,10 @@
+install-deps:
+	@for f in ./*; do \
+		if test -d "$$f"; then \
+			(cd "$$f" && npm install) \
+		fi \
+	done
+
 swc:
 	@(cd swc \
 		&& uwe build --exec > /dev/null 2>&1 \
@@ -42,4 +49,4 @@ tailwind-postcss:
 
 test: swc esbuild babel webpack sass postcss tailwind-postcss
 
-.PHONY: nvm test swc esbuild babel webpack sass postcss tailwind-postcss
+.PHONY: install-deps test swc esbuild babel webpack sass postcss tailwind-postcss
