@@ -11,6 +11,18 @@ cd uwe-examples/collections/document
 uwe dev
 ```
 
+### Build Tools
+
+To use a build tool the `--exec` capability must be granted, eg: `uwe dev --exec`.
+
+* [babel](/build/babel) Transpile Javascript with babel
+* [esbuild](/build/esbuild) Transpile Javascript with esbuild
+* [postscss](/build/postcss) Transpile CSS with postcss
+* [sass](/build/sass) Transpile CSS with sass
+* [swc](/build/swc) Transpile Javascript with swc
+* [tailwind-postscss](/build/tailwind-postcss) Use the tailwind design system with postcss
+* [webpack](/build/webpack) Transpile Javascript with webpack
+
 ### Content
 
 * [crumbtrails](/content/crumbtrails) Navigate to ancestor folders
