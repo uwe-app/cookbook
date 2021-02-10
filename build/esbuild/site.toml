@@ -1,5 +1,5 @@
 lang = "en"
-host = "esbuild-integration.uwe.app"
+host = "esbuild-build-tool.uwe.app"
 
 [dependencies]
 "std::core" = { version = "^5" , apply = {styles = ["**"]}}
@@ -9,7 +9,7 @@ src = "/assets/scripts/main.js"
 dynamic = true
 
 [[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]
 watch = true

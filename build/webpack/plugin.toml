@@ -1,5 +1,5 @@
-name = "build::webpack"
-version = "1.0.1"
+name = "cookbook::build::webpack"
+version = "1.0.0"
 description = "Project blueprint using the webpack transpiler"
 repository = "https://github.com/uwe-app/integrations"
 type = "blueprint"

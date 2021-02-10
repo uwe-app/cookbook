@@ -9,7 +9,7 @@ src = "/assets/styles/main.css"
 dynamic = true
 
 [[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = ["tailwind.config.js", "src/*.css"]
 watch = true

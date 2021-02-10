@@ -1,5 +1,5 @@
-name = "build::sass"
-version = "1.0.1"
+name = "cookbook::build::sass"
+version = "1.0.0"
 description = "Project blueprint using the sass transpiler"
 repository = "https://github.com/uwe-app/integrations"
 type = "blueprint"

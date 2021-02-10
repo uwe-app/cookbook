@@ -1,5 +1,5 @@
 lang = "en"
-host = "sass-integration.uwe.app"
+host = "sass-build-tool.uwe.app"
 
 [dependencies]
 "std::core" = "^5"
@@ -9,7 +9,7 @@ src = "/assets/styles/main.css"
 dynamic = true
 
 [[hooks.run]]
-path = "npm"
+command = "npm"
 args = ["run", "build"]
 files = ["src/*.scss"]
 watch = true

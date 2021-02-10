@@ -1,5 +1,5 @@
-name = "build::swc"
-version = "1.0.1"
+name = "cookbook::build::swc"
+version = "1.0.0"
 description = "Project blueprint using the swc transpiler"
 repository = "https://github.com/uwe-app/integrations"
 type = "blueprint"

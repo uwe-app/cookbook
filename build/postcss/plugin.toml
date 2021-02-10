@@ -1,5 +1,5 @@
-name = "build::postcss"
-version = "1.0.1"
+name = "cookbook::build::postcss"
+version = "1.0.0"
 description = "Project blueprint using the postcss transpiler"
 repository = "https://github.com/uwe-app/integrations"
 type = "blueprint"

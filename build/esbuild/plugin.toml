@@ -1,5 +1,5 @@
-name = "build::esbuild"
-version = "1.0.1"
+name = "cookbook::build::esbuild"
+version = "1.0.0"
 description = "Project blueprint using the esbuild transpiler"
 repository = "https://github.com/uwe-app/integrations"
 type = "blueprint"
