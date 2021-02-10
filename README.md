@@ -46,7 +46,7 @@ To use a build tool the `--exec` capability must be granted, eg: `uwe dev --exec
 
 ## Notes
 
-Developers can compile the entire workspace using `uwe build` at the root of the repository to quickly test for any errors.
+Developers can compile the entire workspace using `uwe build` at the root of the repository to quickly test for any errors. Build tools are treated as a separate workspace as they need the `--exec` capability, `cd build && uwe build --exec`.
 
 [UWE]: https://uwe.app
 [installation]: https://uwe.app/docs/installation/
