@@ -1,0 +1,14 @@
+{
+  "name": "@uwe/swc-spack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integration demo for swc + spack",
+  "license": "MIT",
+  "scripts": {
+    "build": "spack"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.1.27",
+    "@swc/core": "^1.2.40"
+  }
+}

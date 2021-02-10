@@ -1,0 +1,15 @@
+lang = "en"
+host = "tailwind-postcss-integration.uwe.app"
+
+[dependencies]
+"std::core" = "^5"
+
+[style]
+src = "/assets/styles/main.css"
+dynamic = true
+
+[[hooks.run]]
+path = "npm"
+args = ["run", "build"]
+files = ["tailwind.config.js", "src/*.css"]
+watch = true

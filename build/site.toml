@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "babel",
+  "esbuild",
+  "postcss",
+  "sass",
+  "swc",
+  "tailwind-postcss",
+  "webpack",
+]

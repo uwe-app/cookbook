@@ -1,0 +1,15 @@
+lang = "en"
+host = "sass-integration.uwe.app"
+
+[dependencies]
+"std::core" = "^5"
+
+[style]
+src = "/assets/styles/main.css"
+dynamic = true
+
+[[hooks.run]]
+path = "npm"
+args = ["run", "build"]
+files = ["src/*.scss"]
+watch = true

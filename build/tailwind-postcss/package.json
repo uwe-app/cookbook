@@ -1,0 +1,20 @@
+{
+  "name": "@uwe/tailwind-postcss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integration demo for tailwind + postcss",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 14"
+  },
+  "scripts": {
+    "build": "postcss ${BUILD_SOURCE}/src/main.css -o ${BUILD_TARGET}/assets/styles/main.css"
+  },
+  "dependencies": {
+    "tailwindcss": "1.8.10"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-cli": "8.3.0"
+  }
+}

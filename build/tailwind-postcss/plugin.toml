@@ -1,0 +1,19 @@
+name = "build::tailwind-postcss"
+version = "1.0.1"
+description = "Project blueprint using the tailwind design system with the postcss transpiler"
+repository = "https://github.com/uwe-app/integrations"
+type = "blueprint"
+keywords = ["Project", "Blueprint", "Integration", "Transpiler"]
+license = ["MIT", "Apache-2.0"]
+
+[compute]
+assets = false
+styles = false
+scripts = false
+fonts = false
+plugins = false
+partials = false
+layouts = false
+
+[blueprint.files]
+excludes = ["test/**"]

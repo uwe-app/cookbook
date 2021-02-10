@@ -1,0 +1,15 @@
+{
+  "name": "@uwe/babel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integration demo for babel",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel site/src/main.js -d ${BUILD_TARGET}/assets/scripts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7"
+  }
+}

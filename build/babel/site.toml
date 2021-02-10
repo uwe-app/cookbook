@@ -1,0 +1,15 @@
+lang = "en"
+host = "babel-integration.uwe.app"
+
+[dependencies]
+"std::core" = { version = "^5" , apply = {styles = ["**"]}}
+
+[script]
+src = "/assets/scripts/main.js"
+dynamic = true
+
+[[hooks.run]]
+path = "npm"
+args = ["run", "build"]
+files = ["src/*.js"]
+watch = true

@@ -1,0 +1,13 @@
+{
+  "name": "@uwe/sass",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Integration demo for sass",
+  "license": "MIT",
+  "scripts": {
+    "build": "sass site/src/main.scss ${BUILD_TARGET}/assets/styles/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
+}
