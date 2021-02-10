@@ -8,7 +8,7 @@ host = "swc-build-tool.uwe.app"
 src = "/assets/scripts/main.js"
 dynamic = true
 
-[[hooks.run]]
+[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["src/*.ts"]

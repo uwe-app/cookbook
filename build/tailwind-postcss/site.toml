@@ -8,7 +8,7 @@ host = "tailwind-postcss-integration.uwe.app"
 src = "/assets/styles/main.css"
 dynamic = true
 
-[[hooks.run]]
+[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["tailwind.config.js", "src/*.css"]

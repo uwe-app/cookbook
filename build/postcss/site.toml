@@ -8,7 +8,7 @@ host = "postcss-build-tool.uwe.app"
 src = "/assets/styles/main.css"
 dynamic = true
 
-[[hooks.run]]
+[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["src/*.css"]

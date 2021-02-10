@@ -2,13 +2,13 @@ lang = "en"
 host = "babel-build-tool.uwe.app"
 
 [dependencies]
-"std::core" = { version = "^5" , apply = {styles = ["**"]}}
+"std::core" = { version = "^5" , apply = {styles = ["**"]} }
 
 [script]
 src = "/assets/scripts/main.js"
 dynamic = true
 
-[[hooks.run]]
+[[hook]]
 command = "npm"
 args = ["run", "build"]
 files = ["src/*.js"]
