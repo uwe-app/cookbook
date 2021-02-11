@@ -25,6 +25,7 @@ To use a build tool the `--exec` capability must be granted, eg: `uwe dev --exec
 
 ### Content
 
+* [alerts](/content/alerts) Show info, tips, error and warning alerts
 * [crumbtrails](/content/crumbtrails) Navigate to ancestor folders
 * [directory-listing](/content/directory-listing) Link to pages in a folder
 * [imports](/content/imports) Use imports for page headers and footers

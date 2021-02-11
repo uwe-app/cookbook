@@ -1,9 +1,9 @@
 lang = "en"
-host = "crumbtrails-example.uwe.app"
+host = "alerts-example.uwe.app"
 
 [page.meta]
-description = "Crumbtrails Navigation"
-keywords = "Crumbtrails, Navigation"
+description = "Alerts"
+keywords = "Alerts, Info, Tips, Warn, Error"
 
 [dependencies."std::core"]
 version = "^5"
@@ -12,7 +12,7 @@ apply = { styles = ["**"] }
 [dependencies."std::blueprint::default"]
 version = "^1"
 
-[dependencies."std::crumbtrail"]
+[dependencies."std::alert"]
 version = "^1"
 apply = { styles = ["**"] }
 

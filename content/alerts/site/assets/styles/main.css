@@ -1,0 +1,15 @@
+main > header {
+  padding: 2em 0;
+}
+
+details {
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: center;
+}
+
+div.alert.custom {
+  border-color: magenta;
+}
